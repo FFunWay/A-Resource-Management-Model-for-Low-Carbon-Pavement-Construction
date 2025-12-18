@@ -42,7 +42,7 @@ Three emission scenarios are considered for each material:
 
 Each scenario *s* occurs with probability $p_{s}$ , where: <br>
 
-<span style="font-size: 200%; display: block; text-align: center;">$\sum_{s \in S} p_s = 1, \quad p_s \geq 0$</span>
+<span style="font-size: 200%; display: block; text-align: center;">$\Large \sum_{s \in S} p_s = 1, \quad p_s \geq 0$</span>
 
 ### 2.3 Uncertainty and SAA
 
