@@ -25,6 +25,15 @@ Scenario-based expected value modeling is adopted to determine the optimal mater
 | x_3| Area of permeable concrete |
 
 **Deterministic Parameters**<br>
+The following parameters are treated as deterministic and are specified by project requirements:
+| Item | Description |
+|------|-----|
+| *Q* | total required sidewalk area |
+| *B* | available budget |
+| C_𝑗 | unit construction cost of material 𝑗 |
+
+**Stochastic Parameters**<br>
+Carbon emission coefficients are modeled as stochastic parameters:
 
 ### 2.3 Uncertainty and SAA
 
