@@ -47,7 +47,7 @@ Each scenario *s* occurs with probability $p_{s}$ , where: <br>
 The objective is to minimize the expected total carbon emissions generated during sidewalk construction.<br>
 - For a given scenario 𝑠, total carbon emissions are calculated as: <br>
 <span style="font-size: 200%; display: block; text-align: center;">$\Large Z(s) = \sum_{j=1}^{3} E_{j}(s)x_{j}$</span>
-- The expected carbon emissions are then expressed as:
+- The expected carbon emissions are then expressed as: <br>
 <span style="font-size: 200%; display: block; text-align: center;">$\Large \mathbb{E}[Z] = \sum_{s \in S} p_s \sum_{j=1}^{3} E_{j}(s)x_{j}$</span>
 
 This formulation evaluates material allocation decisions based on the weighted average carbon emissions across all scenarios.
