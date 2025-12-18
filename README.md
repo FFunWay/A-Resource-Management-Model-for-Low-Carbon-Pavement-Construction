@@ -19,10 +19,11 @@ Only the carbon emission factors are treated as stochastic parameters, while dec
 Scenario-based expected value modeling is adopted to determine the optimal material allocation, while Monte Carlo simulation is used for parameter estimation and risk evaluation.
 ### 2.2 Model Formulation
 **Decision Variables**<br>
-x_1: Area of high-pressure bricks
-x_2: Area of RC concrete
-x_3: Area of permeable concrete
-**Deterministic Parameters**
+| Item | Description |
+| x_1 | Area of high-pressure bricks |
+| x_2 | Area of RC concrete |
+| x_3| Area of permeable concrete |
+**Deterministic Parameters**<br>
 
 ### 2.3 Uncertainty and SAA
 
