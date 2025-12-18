@@ -20,7 +20,7 @@ Scenario-based expected value modeling is adopted to determine the optimal mater
 **Decision Variables**<br>
 | Item | Description |
 |------|-----|
-| x_{1} | Area of high-pressure bricks |
+| $x_{1}$ | Area of high-pressure bricks |
 | x_{2} | Area of RC concrete |
 | x_{3}| Area of permeable concrete |
 
