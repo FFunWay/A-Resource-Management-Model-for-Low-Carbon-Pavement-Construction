@@ -13,8 +13,17 @@ Without a standardized optimization framework, material selection is usually bas
 This study proposes a resource management decision model that optimizes sidewalk pavement material allocation by minimizing expected carbon emissions under cost and engineering constraints during the design stage.
 
 ## 2. Methodology
+The problem is formulated as a resource allocation problem with uncertain carbon emission coefficients.
 ### 2.1 Assumptions and Limitations
+Only the carbon emission factors are treated as stochastic parameters, while decision variables and project requirements are deterministic. Therefore, a full multi-stage stochastic programming formulation is not required.
+Scenario-based expected value modeling is adopted to determine the optimal material allocation, while Monte Carlo simulation is used for parameter estimation and risk evaluation.
 ### 2.2 Model Formulation
+**Decision Variables**
+x_1: Area of high-pressure bricks
+x_2: Area of RC concrete
+x_3: Area of permeable concrete
+**Deterministic Parameters**
+
 ### 2.3 Uncertainty and SAA
 
 ## 3. Data Collection and Analysis
