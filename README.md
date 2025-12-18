@@ -43,7 +43,7 @@ Three emission scenarios are considered for each material:
 Each scenario *s* occurs with probability $p_{s}$ , where: <br/>
 
 <span style="font-size: 200%; display: block; text-align: center;">$$\quad \Large \sum_{s \in S} p_s = 1, \quad p_s \geq 0$$</span> <br>
-<span> </span>
+
 **Objective Function**<br>
 The objective is to minimize the expected total carbon emissions generated during sidewalk construction.<br>
 - For a given scenario 𝑠, total carbon emissions are calculated as: <br>
