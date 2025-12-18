@@ -18,7 +18,7 @@ The problem is formulated as a resource allocation problem with uncertain carbon
 Only the carbon emission factors are treated as stochastic parameters, while decision variables and project requirements are deterministic. Therefore, a full multi-stage stochastic programming formulation is not required.
 Scenario-based expected value modeling is adopted to determine the optimal material allocation, while Monte Carlo simulation is used for parameter estimation and risk evaluation.
 ### 2.2 Model Formulation
-**Decision Variables**
+**Decision Variables**<br>
 x_1: Area of high-pressure bricks
 x_2: Area of RC concrete
 x_3: Area of permeable concrete
