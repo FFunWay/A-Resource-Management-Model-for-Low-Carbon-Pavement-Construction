@@ -1,4 +1,4 @@
-# A-Resource-Management-Model-for-Low-Carbon-Pavement-Construction
+# Stochastic Programming for Low-Carbon Sidewalk Pavement Resource Allocation
 
 ## 1. Background and Motivation
 ### 1.1 Motivation
