@@ -35,6 +35,11 @@ The following parameters are treated as deterministic and are specified by proje
 **Stochastic Parameters**<br>
 Carbon emission coefficients are modeled as stochastic parameters:
 - $E_𝑗(s)$: unit carbon emission of material 𝑗 under scenario s $(\text{kgCO}_{2}\text{e/m}^{2})$
+Three emission scenarios are considered for each material:
+- optimistic
+- normal
+- pessimistic
+Each scenario *s* occurs with probability $*p_{s}*$, where:
 
 ### 2.3 Uncertainty and SAA
 
