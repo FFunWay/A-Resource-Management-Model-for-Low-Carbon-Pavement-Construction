@@ -7,11 +7,10 @@ However, during the design stage, engineers often lack a systematic decision fra
 
 International practice emphasizes carbon footprint assessment during the design stage, where reduction potential can reach up to 50 percent. In contrast, carbon audits in Taiwan are mostly conducted after project completion, when design decisions are already fixed and emission reduction opportunities are extremely limited.
 ### 1.2 Background
-In real sidewalk projects, pavement decisions are constrained by engineering requirements such as structural strength, drainage capacity, budget limits, and maintenance considerations.
-Without a standardized optimization framework, material selection is usually based on experience rather than systematic analysis, making it difficult to balance carbon reduction and construction feasibility.
+In practical sidewalk engineering, multiple paving and base combinations exist.
+Their carbon and cost impacts are not systematically comparable, and there is no standardized resource framework to guide engineers during the design stage.
 ### 1.3 Problem Definition
-This study proposes a resource management decision model that optimizes sidewalk pavement material allocation by minimizing expected carbon emissions under cost and engineering constraints during the design stage.
-
+This study develops a decision model to support sidewalk pavement design by systematically comparing material combinations under carbon emission and cost considerations.
 ## 2. Methodology
 The problem is formulated as a resource allocation problem with uncertain carbon emission coefficients.
 ### 2.1 Assumptions and Limitations
