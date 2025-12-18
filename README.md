@@ -39,7 +39,7 @@ Three emission scenarios are considered for each material:
 - optimistic
 - normal
 - pessimistic
-Each scenario *s* occurs with probability $*p_{s}*$, where:
+Each scenario *s* occurs with probability *$p_{s}$*, where:
 
 ### 2.3 Uncertainty and SAA
 
