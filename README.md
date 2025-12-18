@@ -20,9 +20,9 @@ Scenario-based expected value modeling is adopted to determine the optimal mater
 **Decision Variables**<br>
 | Item | Description |
 |------|-----|
-| x_1 | Area of high-pressure bricks |
-| x_2 | Area of RC concrete |
-| x_3| Area of permeable concrete |
+| x_{1} | Area of high-pressure bricks |
+| x_{2} | Area of RC concrete |
+| x_{3}| Area of permeable concrete |
 
 **Deterministic Parameters**<br>
 The following parameters are treated as deterministic and are specified by project requirements:
@@ -30,10 +30,11 @@ The following parameters are treated as deterministic and are specified by proje
 |------|-----|
 | *Q* | total required sidewalk area |
 | *B* | available budget |
-| C_𝑗 | unit construction cost of material 𝑗 |
+| C_{𝑗} | unit construction cost of material 𝑗 |
 
 **Stochastic Parameters**<br>
 Carbon emission coefficients are modeled as stochastic parameters:
+
 
 ### 2.3 Uncertainty and SAA
 
