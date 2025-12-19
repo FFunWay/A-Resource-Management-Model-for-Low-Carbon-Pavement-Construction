@@ -56,7 +56,18 @@ The objective is to minimize the expected total carbon emissions generated durin
 
 This formulation evaluates material allocation decisions based on the weighted average carbon emissions across all scenarios.
 ### 2.3 Uncertainty and SAA
-
+In this study, uncertainty arises from the carbon emission coefficients associated with different pavement materials.
+Construction-related factors such as material specifications, construction methods, and implementation conditions lead to variability in carbon emissions.<br>
+**Uncertainty**
+  Carbon emission coefficients are represented using discrete scenarios rather than continuous probability distributions.
+For each pavement material 𝑗, three emission scenarios are considered:
+- optimistic
+- normal
+- pessimistic <br>
+Each scenario 𝑠 is associated with a probability $p_{s}$ , satisfying:
+<span style="font-size: 200%; display: block; text-align: center;">$$\sum_{s \in S} p_s = 1$$</span>
+These scenarios capture the uncertainty of emission factors while keeping the optimization model tractable.
+**SAA**
 ## 3. Data Collection and Analysis
 ### 3.1 Data Collection
 ### 3.2 Analysis
