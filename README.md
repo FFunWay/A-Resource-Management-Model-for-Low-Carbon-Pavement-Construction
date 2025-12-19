@@ -64,9 +64,11 @@ For each pavement material 𝑗, three emission scenarios are considered:
 - optimistic
 - normal
 - pessimistic <br>
+
 Each scenario 𝑠 is associated with a probability $p_{s}$ , satisfying:
 <span style="font-size: 200%; display: block; text-align: center;">$$\sum_{s \in S} p_s = 1$$</span>
 These scenarios capture the uncertainty of emission factors while keeping the optimization model tractable.
+
 **SAA**
 ## 3. Data Collection and Analysis
 ### 3.1 Data Collection
