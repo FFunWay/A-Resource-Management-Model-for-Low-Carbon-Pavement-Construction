@@ -37,9 +37,11 @@ Carbon emission coefficients are modeled as stochastic parameters:
 - $E_𝑗(s)$: unit carbon emission of material 𝑗 under scenario s $(\text{kgCO}_{2}\text{e/m}^{2})$
 
 Three emission scenarios are considered for each material:
-- optimistic
-- normal
-- pessimistic <br>
+| Material  𝒋 / scen *s* | optimistic | normal | pessimistic |
+|-----|---|---|---|
+| high-pressure bricks | $E_1(O)$ | $E_1(N)$ | $E_1(P)$ |
+| RC concrete | $E_2(O)$ | $E_2(N)$ | $E_2(P)$ |
+| permeable concrete  | $E_3(O)$ | $E_3(N)$ | $E_3(P)$ |
 
 Each scenario *s* occurs with probability $p_{s}$ , where: <br/>
 
