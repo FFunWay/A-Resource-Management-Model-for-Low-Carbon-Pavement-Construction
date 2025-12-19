@@ -118,19 +118,19 @@ The data compilation integrates multiple sources:<br>
 - Unit price analysis sheets
 - Input–output tables
 
-This hybrid approach enables the identification of emission hotspots associated with different pavement materials and construction methods.
+The analysis shows that pavement works account for more than 42% of the total project cost, making them the primary source of carbon emissions. Among them, high-pressure concrete tiles are the critical material, and their specifications and construction methods have a direct impact.
 
 **Classification of Construction Methods** <br>
-Sidewalk pavement construction methods are classified based on pavement type and base structure.Different construction methods exhibit distinct bearing capacities and drainage characteristics.
-
-Site conditions are considered when selecting feasible construction methods: <br>
-- If on-site soil conditions are weak, dry construction methods are excluded.
-- If permeability is required, only permeable pavement systems or alternatives meeting regulatory strength requirements are considered.
-
-This classification process is used to remove infeasible options before optimization.
+Types of Sidewalk Pavements: <br>
+<img width="1138" height="706" alt="types of sidewalk" src="https://github.com/user-attachments/assets/1aeb21a7-6034-4a3f-a15f-00402aa26815" /><br>
+Bearing Capacity: If the on-site soil is weak, dry construction methods cannot be used; wet methods or concrete are required.<br>
+Permeability requirement: If the site requires permeable pavement, only permeable systems can be used, or alternatives that meet the required regulatory strength.<br>
 
 **Completed Engineering Cases**
-
+<img width="700" height="412" alt="sidewalk cost table" src="https://github.com/user-attachments/assets/bc1d3809-e523-42eb-ba31-0416d393e4e7" />
+<img width="630" height="448" alt="sidewalk cost table_2" src="https://github.com/user-attachments/assets/3e187042-b802-4d47-b6c7-8680c2aa5152" />
+<img width="662" height="468" alt="sidewalk cost table_3" src="https://github.com/user-attachments/assets/b9c9c296-b2b0-40f4-bbfa-a3e0b1876fb2" />
+<br>
 A total of seven completed sidewalk engineering cases are collected.
 For each case, an optimization model is constructed based on its specific site conditions and required sidewalk area.
 Since carbon emissions for these projects have already been audited, the optimized results can be directly compared with actual construction data.
