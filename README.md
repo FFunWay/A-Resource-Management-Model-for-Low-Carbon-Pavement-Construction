@@ -128,11 +128,11 @@ The model determines the optimal pavement material allocation by minimizing expe
 
 **Cost Evaluation**
 
-💰Total cost = $649,439   💹Budget = $670,000
+💰Total cost = $649,439   💹Budget = $670,000 <br>
 3.1% budget buffer → The optimal design is cost-efficient and feasible.
 
-
 **Constraint Evaluation**
+Part 2: Constraint Check & Risk Behavior
 
 After optimization, all engineering constraints are checked to ensure feasibility.
 The analysis shows that most constraints are satisfied with sufficient margins, while some constraints become binding in the optimal solution.
