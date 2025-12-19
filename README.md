@@ -58,6 +58,22 @@ The objective is to minimize the expected total carbon emissions generated durin
 <span style="font-size: 200%; display: block; text-align: center;">$$\quad \Large \mathbb{E}[Z] = \sum_{s \in S} p_s \sum_{j=1}^{3} E_{j}(s)x_{j}$$</span>
 
 This formulation evaluates material allocation decisions based on the weighted average carbon emissions across all scenarios.
+
+**Constraint**<br>
+- Area and Budget Constraints:<br>
+$x_{1}$ + $x_{2}$ + $x_{3}$ = *Q* , $\sum Cost_j x_j \le B$  <br>
+- Interlocking Paver Proportion Constraint: <br>
+0.2𝑄 ≤ 𝑥_{1} ≤ 0.6𝑄
+Easy maintenance for areas with underground utilities.Avoid poor drainage if too many interlocking pavers are used
+- Structural Strength Constraint
+Let original structural coefficients be 𝑎1, 𝑎2,𝑎3 : <br>
+Normalize them as: <br>
+$$S_j = \frac{a_j}{\max(a_1, a_2, a_3)}, j = 1, 2, 3$$ <br>
+Structural strength requirement: <br>
+S_{1}𝑥_{1} + S_{2}𝑥_{2} + S_{3}𝑥_{3} ≥ 𝑆𝑚𝑖𝑛𝑄
+
+- 
+
 ### 2.3 Uncertainty and SAA
 In this study, uncertainty arises from the carbon emission coefficients associated with different pavement materials.
 Construction-related factors such as material specifications, construction methods, and implementation conditions lead to variability in carbon emissions.<br>
