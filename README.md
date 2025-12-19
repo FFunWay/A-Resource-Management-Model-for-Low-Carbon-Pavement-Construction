@@ -122,7 +122,7 @@ The analysis shows that pavement works account for more than 42% of the total pr
 
 **Classification of Construction Methods** <br>
 Types of Sidewalk Pavements: <br>
-<img width="500" height="360" alt="types of sidewalk" src="https://github.com/user-attachments/assets/1aeb21a7-6034-4a3f-a15f-00402aa26815" /><br>
+<img width="500" height="360" align="center" alt="types of sidewalk" src="https://github.com/user-attachments/assets/1aeb21a7-6034-4a3f-a15f-00402aa26815" /><br>
 Bearing Capacity: If the on-site soil is weak, dry construction methods cannot be used; wet methods or concrete are required.<br>
 Permeability requirement: If the site requires permeable pavement, only permeable systems can be used, or alternatives that meet the required regulatory strength.<br>
 
@@ -140,6 +140,7 @@ Permeability requirement: If the site requires permeable pavement, only permeabl
       <img alt="sidewalk cost table_2" src="https://github.com/user-attachments/assets/b9c9c296-b2b0-40f4-bbfa-a3e0b1876fb2" />
     </td>
 <br>
+    
 A total of seven completed sidewalk engineering cases are collected.
 For each case, an optimization model is constructed based on its specific site conditions and required sidewalk area.
 Since carbon emissions for these projects have already been audited, the optimized results can be directly compared with actual construction data.
