@@ -58,7 +58,8 @@ This formulation evaluates material allocation decisions based on the weighted a
 ### 2.3 Uncertainty and SAA
 In this study, uncertainty arises from the carbon emission coefficients associated with different pavement materials.
 Construction-related factors such as material specifications, construction methods, and implementation conditions lead to variability in carbon emissions.<br>
-**Uncertainty**
+**Uncertainty**<br>
+
   Carbon emission coefficients are represented using discrete scenarios rather than continuous probability distributions.
 For each pavement material 𝑗, three emission scenarios are considered:
 - optimistic
@@ -67,9 +68,16 @@ For each pavement material 𝑗, three emission scenarios are considered:
 
 Each scenario 𝑠 is associated with a probability $p_{s}$ , satisfying:
 <span style="font-size: 200%; display: block; text-align: center;">$$\sum_{s \in S} p_s = 1$$</span>
-These scenarios capture the uncertainty of emission factors while keeping the optimization model tractable.
+These scenarios capture the uncertainty of emission factors while keeping the optimization model tractable.<br>
 
-**SAA**
+**Relation to Sample Average Approximation**<br>
+Sample Average Approximation (SAA) is commonly applied in stochastic programming to approximate expected values by averaging outcomes across multiple sampled scenarios. However, in this study, uncertainty only affects the emission coefficients, while decision variables and engineering constraints remain deterministic.Therefore, full SAA-based scenario expansion is not applied to the optimization process. Instead, the expected carbon emissions are calculated using a scenario-weighted formulation in the objective function, and Monte Carlo simulation is employed separately for parameter estimation and risk analysis.
+
+**Monte Carlo Risk Analysis**<br>
+
+Monte Carlo simulation with a sample size of 1000 is conducted to evaluate the variability of total carbon emissions under emission uncertainty.
+This analysis provides additional insights into the stability and risk behavior of the optimized solution without altering the optimization structure.
+
 ## 3. Data Collection and Analysis
 ### 3.1 Data Collection
 ### 3.2 Analysis
