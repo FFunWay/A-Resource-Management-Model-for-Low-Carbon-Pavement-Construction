@@ -70,14 +70,24 @@ Let original structural coefficients be 𝑎1, 𝑎2,𝑎3 : <br>
 Normalize them as: <br>
 $$S_j = \frac{a_j}{\max(a_1, a_2, a_3)}, j = 1, 2, 3$$ <br>
 Structural strength requirement: <br>
-$S_{1}𝑥_{1}$ + $S_{2}𝑥_{2}$ + $S_{3}𝑥_{3}$ ≥ 𝑆𝑚𝑖𝑛𝑄
+$S_{1}𝑥_{1}$ + $S_{2}𝑥_{2}$ + $S_{3}𝑥_{3}$ ≥ 𝑆𝑚𝑖𝑛𝑄 , where 𝑆𝑚𝑖𝑛 is the *minimum acceptable structural index*. Can be obtained from real projects or set as a baseline requirement
+- Drainage Performance Constraint
+$D_{1}𝑥_{1}$ + $D_{2}𝑥_{2}$ + $D_{3}𝑥_{3}$≥ 𝐷𝑚𝑖𝑛𝑄 , where 𝐷𝑗 = drainage performance index of each material, 𝐷𝑚𝑖𝑛= minimum required drainage capability.
 
-- 
+| Constraint | Mathematical Form | Engineering Rationale |
+|-----|-----|-----|
+|Area| 𝑥1+𝑥2+𝑥3=𝑄 |Total area fixed|
+|Budget| ∑𝐶𝑜𝑠𝑡𝑗𝑥𝑗≤B |Cost limit|
+|Interlocking pavers| 0.2𝑄≤𝑥1≤0.6𝑄 |Maintainability & safety|
+|Structure| 𝑆1𝑥1+𝑆2𝑥2+𝑆3𝑥3≥𝑆𝑚𝑖𝑛𝑄 | Minimum strength|
+|Drainage| 𝐷1𝑥1+𝐷2𝑥2+𝐷3𝑥3≥𝐷𝑚𝑖𝑛𝑄 | Prevent flooding|
+|Material relation 1| 𝑥3≥𝑥2 | Maintain drainage|
+|Material relation 2| 𝑥2≤0.5(𝑥1+𝑥3) |Avoid impermeable dominance|
 
-### 2.3 Uncertainty and SAA
-In this study, uncertainty arises from the carbon emission coefficients associated with different pavement materials.
-Construction-related factors such as material specifications, construction methods, and implementation conditions lead to variability in carbon emissions.<br>
-**Uncertainty**<br>
+### 2.3 SAA 
+Scheduling paper uses SAA to approximate expected waiting time:<br>
+$$\min_{x} \frac{1}{N} \sum_{n} Z(x, \xi^{(n)})$$ <br>
+Full SAA is unnecessary for this project because only the emission factor is random.
 
   Carbon emission coefficients are represented using discrete scenarios rather than continuous probability distributions.
 For each pavement material 𝑗, three emission scenarios are considered:
@@ -205,3 +215,4 @@ From a methodological perspective, combining a scenario-based expected value for
 This approach is well suited for engineering decision-support problems where uncertainty affects parameters rather than decision feasibility.
 
 ## 5. Reference
+- Yao X, Shehadeh KS, Padman R. Multi-resource allocation and care sequence assignment in patient management: a stochastic programming approach. Health Care Manag Sci. 2024 Sep;27(3):352-369. doi: 10.1007/s10729-024-09675-6. Epub 2024 May 30. PMID: 38814509; PMCID: PMC11461687.
