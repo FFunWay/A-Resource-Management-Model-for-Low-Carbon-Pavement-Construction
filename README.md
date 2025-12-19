@@ -167,6 +167,10 @@ uncertainty.Even in worst-case simulations, emissions remain within a narrow ban
 
 ### 3.3 Results and Managerial Implications
 
+The optimized solution is dominated by permeable concrete, with RC concrete minimized and interlocking pavers fixed at their minimum ratio.
+The total cost remains within the budget.
+
+
 ## 4. Conclusion
 
 ## 5. Reference
