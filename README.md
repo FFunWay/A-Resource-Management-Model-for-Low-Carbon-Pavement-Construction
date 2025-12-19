@@ -127,9 +127,18 @@ Bearing Capacity: If the on-site soil is weak, dry construction methods cannot b
 Permeability requirement: If the site requires permeable pavement, only permeable systems can be used, or alternatives that meet the required regulatory strength.<br>
 
 **Completed Engineering Cases**
-<img width="700" height="412" alt="sidewalk cost table" src="https://github.com/user-attachments/assets/bc1d3809-e523-42eb-ba31-0416d393e4e7" />
-<img width="630" height="448" alt="sidewalk cost table_2" src="https://github.com/user-attachments/assets/3e187042-b802-4d47-b6c7-8680c2aa5152" />
-<img width="662" height="468" alt="sidewalk cost table_3" src="https://github.com/user-attachments/assets/b9c9c296-b2b0-40f4-bbfa-a3e0b1876fb2" />
+
+<table style="width: 100%;">
+  <tr>
+    <td align="center" width="33.3%">
+      <img alt="sidewalk cost table" src="https://github.com/user-attachments/assets/bc1d3809-e523-42eb-ba31-0416d393e4e7" />
+    </td>
+    <td align="center" width="33.3%">
+      <img alt="sidewalk cost table_2" src="https://github.com/user-attachments/assets/3e187042-b802-4d47-b6c7-8680c2aa5152" />
+    </td>
+    <td align="center" width="33.3%">
+      <img alt="sidewalk cost table_2" src="https://github.com/user-attachments/assets/b9c9c296-b2b0-40f4-bbfa-a3e0b1876fb2" />
+    </td>
 <br>
 A total of seven completed sidewalk engineering cases are collected.
 For each case, an optimization model is constructed based on its specific site conditions and required sidewalk area.
