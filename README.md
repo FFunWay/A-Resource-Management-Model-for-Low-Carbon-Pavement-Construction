@@ -70,7 +70,7 @@ Let original structural coefficients be 𝑎1, 𝑎2,𝑎3 : <br>
 Normalize them as: <br>
 $$S_j = \frac{a_j}{\max(a_1, a_2, a_3)}, j = 1, 2, 3$$ <br>
 Structural strength requirement: <br>
-$S_{1}𝑥_{1}$ + S_{2}𝑥_{2} + S_{3}𝑥_{3} ≥ 𝑆𝑚𝑖𝑛𝑄
+$S_{1}𝑥_{1}$ + $S_{2}𝑥_{2}$ + $S_{3}𝑥_{3}$ ≥ 𝑆𝑚𝑖𝑛𝑄
 
 - 
 
