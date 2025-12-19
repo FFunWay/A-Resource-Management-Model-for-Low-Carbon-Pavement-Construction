@@ -80,6 +80,34 @@ This analysis provides additional insights into the stability and risk behavior 
 
 ## 3. Data Collection and Analysis
 ### 3.1 Data Collection
+**Carbon Footprint Data Sources**
+
+Carbon footprint data in this study are obtained using a hybrid life cycle analysis approach with a cradle-to-gate system boundary.
+This boundary includes material production and construction processes, which are the major contributors to carbon emissions in sidewalk pavement projects.<br>
+The data compilation integrates multiple sources:<br>
+- PCCES (Public Construction Cost Estimation System)
+- Unit price analysis sheets
+- Input–output tables
+
+This hybrid approach enables the identification of emission hotspots associated with different pavement materials and construction methods.
+
+**Classification of Construction Methods** <br>
+Sidewalk pavement construction methods are classified based on pavement type and base structure.Different construction methods exhibit distinct bearing capacities and drainage characteristics.
+
+Site conditions are considered when selecting feasible construction methods: <br>
+- If on-site soil conditions are weak, dry construction methods are excluded.
+- If permeability is required, only permeable pavement systems or alternatives meeting regulatory strength requirements are considered.
+
+This classification process is used to remove infeasible options before optimization.
+
+**Completed Engineering Cases**
+
+A total of seven completed sidewalk engineering cases are collected.
+For each case, an optimization model is constructed based on its specific site conditions and required sidewalk area.
+
+Since carbon emissions for these projects have already been audited, the optimized results can be directly compared with actual construction data.
+This enables validation of the proposed model under real engineering conditions.
+
 ### 3.2 Analysis
 ### 3.3 Results and Managerial Implications
 
