@@ -139,6 +139,8 @@ Permeability requirement: If the site requires permeable pavement, only permeabl
     <td align="center" width="33.3%">
       <img alt="sidewalk cost table_2" src="https://github.com/user-attachments/assets/b9c9c296-b2b0-40f4-bbfa-a3e0b1876fb2" />
     </td>
+  </tr>
+</table>
 <br>
     
 A total of seven completed sidewalk engineering cases are collected.
