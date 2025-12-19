@@ -167,8 +167,8 @@ uncertainty.Even in worst-case simulations, emissions remain within a narrow ban
 
 ### 3.3 Results and Managerial Implications
 
-The optimized solution is dominated by permeable concrete, with RC concrete minimized and interlocking pavers fixed at their minimum ratio.
-The total cost remains within the budget.
+The optimization results indicate that the optimal pavement configuration consists of **68% permeable concrete, 12% RC concrete, and 20% interlocking pavers**.
+This solution minimizes expected carbon emissions while satisfying all engineering constraints and remaining within the budget.
 
 
 ## 4. Conclusion
