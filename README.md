@@ -160,7 +160,7 @@ To further evaluate the robustness of the optimized solution, **Monte Carlo** si
 | Expected total emissions | 21,827 |
 | 5th percentile (best case) | 20,644 |
 | 95% VaR (worst 5%) | 22,838 |
-| Range | 19,664 – 23,283 |
+| Range | 19,664 ~ 23,283 |
 
 Variability mainly comes from construction method differences, thickness variations, and workmanship 
 uncertainty.Even in worst-case simulations, emissions remain within a narrow band (+/– 6%).
