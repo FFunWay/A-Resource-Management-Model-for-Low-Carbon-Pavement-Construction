@@ -154,7 +154,12 @@ These binding constraints indicate the key engineering factors that influence ca
 
 **Risk Behavior under Uncertainty**
 
-To further evaluate the robustness of the optimized solution, Monte Carlo simulation with 1000 samples is conducted.The simulation analyzes the variability of total carbon emissions under uncertainty in emission coefficients.
+To further evaluate the robustness of the optimized solution, **Monte Carlo** simulation with 1000 samples is conducted.The simulation analyzes the variability of total carbon emissions under uncertainty in emission coefficients.
+| Metric | Value (kgCO₂e) |-|--------|----|
+| Expected total emissions | 21,827 |
+| 5th percentile (best case) | 20,644 |
+| 95% VaR (worst 5%) | 22,838 |
+| Range | 19,664 – 23,283 |
 
 Key statistical indicators, including expected emissions and percentile values, are used to describe the distribution of total emissions.The results show that carbon emissions remain within a relatively narrow range across simulations, indicating stable performance even under pessimistic emission scenarios.
 
