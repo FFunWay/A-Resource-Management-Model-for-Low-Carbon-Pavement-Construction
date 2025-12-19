@@ -131,11 +131,20 @@ The model determines the optimal pavement material allocation by minimizing expe
 💰Total cost = $649,439   💹Budget = $670,000 <br>
 3.1% budget buffer → The optimal design is cost-efficient and feasible.
 
-**Constraint Evaluation**
-Part 2: Constraint Check & Risk Behavior
+🚩**Part 2:Constraint Evaluation**
 
 After optimization, all engineering constraints are checked to ensure feasibility.
 The analysis shows that most constraints are satisfied with sufficient margins, while some constraints become binding in the optimal solution.
+
+Engineering Constraints – All Satisfied:
+| Constraints | Requirement | Result | Status | 
+|--------|----|------|---|
+| Structural strength | ≥ 0.6 | 0.60 | Binding |
+| Drainage index | ≥0.4 | 0.75 | ✓ |
+| x₃ ≥x₂ | - | 343.67 ≥ 60.65 | ✓ |
+| RC ≤ 0.5(x₁ + x₃) | - | 60.65 ≤ 222.38 | ✓ |
+| x₁ ratio | 20 ~ 60% | 20% | Binding |
+| Budget | ≤670,000 | 649,439 | ✓ |
 
 In particular: <br>
 - The minimum interlocking paver proportion constraint reaches its lower bound.
