@@ -104,11 +104,52 @@ This classification process is used to remove infeasible options before optimiza
 
 A total of seven completed sidewalk engineering cases are collected.
 For each case, an optimization model is constructed based on its specific site conditions and required sidewalk area.
-
 Since carbon emissions for these projects have already been audited, the optimized results can be directly compared with actual construction data.
 This enables validation of the proposed model under real engineering conditions.
 
 ### 3.2 Analysis
+🚩 **Part 1: Optimal Configuration & Cost Performance**
+
+For each completed engineering case, an optimization model is constructed using site conditions, sidewalk area requirements, and budget constraints.
+Infeasible construction methods are excluded based on bearing capacity and permeability requirements.
+The model determines the optimal pavement material allocation by minimizing expected carbon emissions under engineering and cost constraints.
+
+| Item | Area size(m²) | Present |
+|------|---|---|
+|$x_{1}$| 101.08 | 20% |
+|$x_{2}$| 60.65 | 12% |
+|$x_{3}$| 343.67 | 68% |
+
+**Model tendency**
+
+- Reduce RC → highest carbon emission
+- Increase pervious → best drainage + lowest carbon
+- Keep interlocking pavers at minimum ratio → required for maintainability
+
+**Cost Evaluation**
+
+💰Total cost = $649,439   💹Budget = $670,000
+3.1% budget buffer → The optimal design is cost-efficient and feasible.
+
+
+**Constraint Evaluation**
+
+After optimization, all engineering constraints are checked to ensure feasibility.
+The analysis shows that most constraints are satisfied with sufficient margins, while some constraints become binding in the optimal solution.
+
+In particular: <br>
+- The minimum interlocking paver proportion constraint reaches its lower bound.
+- The minimum structural strength requirement reaches its threshold.
+
+These binding constraints indicate the key engineering factors that influence carbon emission outcomes in the optimized design.
+
+**Risk Behavior under Uncertainty**
+
+To further evaluate the robustness of the optimized solution, Monte Carlo simulation with 1000 samples is conducted.The simulation analyzes the variability of total carbon emissions under uncertainty in emission coefficients.
+
+Key statistical indicators, including expected emissions and percentile values, are used to describe the distribution of total emissions.The results show that carbon emissions remain within a relatively narrow range across simulations, indicating stable performance even under pessimistic emission scenarios.
+
+
 ### 3.3 Results and Managerial Implications
 
 ## 4. Conclusion
