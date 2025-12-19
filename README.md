@@ -169,7 +169,10 @@ uncertainty.Even in worst-case simulations, emissions remain within a narrow ban
 
 The optimization results indicate that the optimal pavement configuration consists of **68% permeable concrete, 12% RC concrete, and 20% interlocking pavers**.
 This solution minimizes expected carbon emissions while satisfying all engineering constraints and remaining within the budget.
-
+Note.
+-The structural strength constraint (S=0.600) has just reached the lower limit, which is a binding constraint.
+-The proportion of high-pressure bricks (20.0%) also reached the lower limit, which is a binding constraint.
+-To increase structural strength, it may be necessary to increase the proportion of reinforced concrete (RC) or high-pressure bricks, but this will increase carbon emissions.
 
 ## 4. Conclusion
 
