@@ -226,6 +226,24 @@ The results demonstrate that design-stage optimization provides clearer and more
 From a methodological perspective, combining a scenario-based expected value formulation with Monte Carlo analysis offers a practical way to address uncertainty while maintaining model simplicity and interpretability.
 This approach is well suited for engineering decision-support problems where uncertainty affects parameters rather than decision feasibility.
 
+<table style="width: 100%;">
+  <tr>
+    <td align="center" width="50%">
+      <img alt="comparison of actual carbon emission" src="https://github.com/user-attachments/assets/9e0eb7cb-619f-40f6-81e8-18e6a3e6a25d" />
+    </td>
+    <td align="center" width="50%">
+      <img alt="comparison of actual cost" src="https://github.com/user-attachments/assets/dfc77877-6ae9-45a9-b4e4-2cbd4ad355eb" />
+    </td>
+  </tr>
+</table>
+<br>
+<table style="width: 100%">
+  <tr>
+    <img width="1414" height="326" alt="conclusion" src="https://github.com/user-attachments/assets/e41103d1-c1c1-4aa3-b2e6-baef5396f8d8" />
+  </tr>
+</table>
+<br>
+
 ## 5. Reference
 - Yao X, Shehadeh KS, Padman R. Multi-resource allocation and care sequence assignment in patient management: a stochastic programming approach. Health Care Manag Sci. 2024 Sep;27(3):352-369. doi: 10.1007/s10729-024-09675-6. Epub 2024 May 30. PMID: 38814509; PMCID: PMC11461687.
 - Husemann, M., Kirste, A., & Stumpf, E. (2024). Analysis of cost-efficient urban air mobility systems: Optimization of operational and configurational fleet decisions. European Journal of Operational Research, 317(3), 678-695. https://www.sciencedirect.com/science/article/abs/pii/S0377221723003387
