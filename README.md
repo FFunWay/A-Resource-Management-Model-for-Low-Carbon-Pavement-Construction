@@ -228,3 +228,4 @@ This approach is well suited for engineering decision-support problems where unc
 
 ## 5. Reference
 - Yao X, Shehadeh KS, Padman R. Multi-resource allocation and care sequence assignment in patient management: a stochastic programming approach. Health Care Manag Sci. 2024 Sep;27(3):352-369. doi: 10.1007/s10729-024-09675-6. Epub 2024 May 30. PMID: 38814509; PMCID: PMC11461687.
+- Husemann, M., Kirste, A., & Stumpf, E. (2024). Analysis of cost-efficient urban air mobility systems: Optimization of operational and configurational fleet decisions. European Journal of Operational Research, 317(3), 678-695.
