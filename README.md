@@ -218,13 +218,11 @@ Note.
 
 ## 4. Conclusion
 
-This study develops an optimization-based resource allocation model for low-carbon sidewalk pavement design under carbon emission uncertainty.
-By integrating stochastic emission coefficients with deterministic engineering and budget constraints, the model identifies a feasible pavement configuration that minimizes expected construction-stage carbon emissions.
+This study develops an optimization-based resource allocation model for low-carbon sidewalk pavement design under carbon emission uncertainty. By integrating stochastic emission coefficients with deterministic engineering and budget constraints, the model identifies a feasible pavement configuration that minimizes expected construction-stage carbon emissions.
 
-The results demonstrate that design-stage optimization provides clearer and more effective guidance for carbon reduction than post-construction carbon audits.In particular, material allocation decisions and binding engineering constraints play a decisive role in shaping achievable emission outcomes.
+The results demonstrate that design-stage optimization provides clearer and more effective guidance for carbon reduction than post-construction carbon audits. In particular, material allocation decisions and binding engineering constraints play a decisive role in shaping achievable emission outcomes.
 
-From a methodological perspective, combining a scenario-based expected value formulation with Monte Carlo analysis offers a practical way to address uncertainty while maintaining model simplicity and interpretability.
-This approach is well suited for engineering decision-support problems where uncertainty affects parameters rather than decision feasibility.
+From a methodological perspective, combining a scenario-based expected value formulation with Monte Carlo analysis provides a practical and transparent way to address parameter uncertainty while maintaining model simplicity and interpretability. This approach is especially suitable for engineering decision-support problems where uncertainty affects model parameters rather than decision feasibility.
 
 <table style="width: 100%;">
   <tr>
